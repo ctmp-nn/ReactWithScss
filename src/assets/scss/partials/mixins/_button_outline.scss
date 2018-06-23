@@ -1,0 +1,11 @@
+@mixin button_outline($name, $color){
+    &.btn-#{$name}{
+        border-color: #{$color};
+        color: #{$color};
+        background-color: transparent;
+        &:hover{
+            background-color: #{$color};
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+/** 
+ * @author: JaneSmith
+ * @phone: 084-4094069
+ * @email: aeglamorous@gmail.com
+ */
+
+
+// // Fonts
+// @import url("https://fonts.googleapis.com/css?family=Kanit:300,400,600");
+// @import 'public/fonts';
+
+// Not change this pattern
+@import "bootstrap-scss/functions";
+@import "mixin/mixin";
+@import "variables";
+@import "bootstrap-scss/bootstrap";
+
+// Font-Awesome 5
+@import "fontawesome5/scss/fontawesome.scss";
+@import "fontawesome5/scss/fa-regular.scss";
+@import "fontawesome5/scss/fa-solid.scss";
+@import "fontawesome5/scss/fa-brands.scss";
+
+@import 'public/utility';

@@ -1,0 +1,35 @@
+%flex{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+@mixin flex($val){
+	-webkit-flex: $val;
+       -moz-flex: $val;
+        -ms-flex: $val;
+            flex: $val;
+}
+@mixin flex_direction($val){
+	-webkit-flex-direction: $val;
+       -moz-flex-direction: $val;
+        -ms-flex-direction: $val;
+            flex-direction: $val;
+}
+
+%flex_wrap{
+	 -ms-box-orient: horizontal;
+    @extend %flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+%flex_text_middle{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}

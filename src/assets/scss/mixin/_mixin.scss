@@ -1,0 +1,13 @@
+@mixin circle($size){
+	display: inline-block;
+	width: $size;
+	height: $size;
+	border-radius: 50%;
+}
+
+%flex_text_middle{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}

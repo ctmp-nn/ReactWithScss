@@ -1,0 +1,67 @@
+@import 'fonts';
+
+// default template HERE !!!!
+
+
+$font_family: 'Montserrat', 'Prompt', sans-serif;
+
+$font_size: 14px;
+$font_title_size: 18px;
+$font_maintitle_size: 28px;
+$font_section_title_size: 42px;
+
+$font_weight: 400;
+$font_weight_bolder: 500;
+$font_weight_bold: 600;
+$font_weight_lighter: 300;
+$font_weight_light: 200;
+
+$bg_color: #fff;
+
+$bg_color_gray: #f9f9f9;
+$bg_color_light: #fafafa;
+
+$font_color: #4e4e4e;
+
+$font_color_lighter: lighten($font_color, 8%);
+$font_color_light: lighten($font_color, 22%);
+
+$font_color_darker: darken($font_color, 8%);
+$font_color_dark: darken($font_color, 22%);
+
+$title_color: #4a4a4a;
+
+$primary: #f68e1f;
+$success: #00e584;
+$info: #82bdff;
+$warning: #ffd740;
+$danger: #ff1744;
+$second: #ff6766;
+
+$active_color: darken($success, 8%);
+
+$border_color: #d9d9d9;
+$border_color_light: #e6ebe8;
+
+$delay: all 0.3s ease-in-out;
+
+$screen-iphone5 : 320px;
+
+@import 'bootstrap/variables';
+
+$margin: $grid-gutter-width / 2;
+$margin_2x: $margin * 2;
+$margin_xs: $margin / 2;
+
+$section_margin: $margin * 3;
+
+$border_color: #ddd;
+$border: 1px solid $border_color;
+$border_radius: 4px;
+
+$box-shadow: -2px 4px 8px rgb(239, 239, 239);
+
+$z_index: 1024;
+$z_index_2x: $z_index * 2;
+
+$footer_height: 42px;
